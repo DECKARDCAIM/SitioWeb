@@ -7,14 +7,16 @@
     <meta name="description" content="Curso de HTML y CSS">
     <meta name="keywords" content="HTML, CSS, Diseño Web"/>
     <meta name="author" content="Cristoffer Falla">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>HTML-CSS</title>
     <style>
-
+        
     </style>
 </head>
-<body class="body">
-    <header class="pageHeader" >
+<body>
+    <header class="pageHeader">
         <nav>
             <ul>
                 <li class="active"><a href="#">Inicio</a></li>
@@ -27,51 +29,47 @@
 
     <div class="Main">
         <div class="content">
-            <article class="Top">
+            <article>
                 <header>
-                    <h2><a href="#">Que es HTML?</a></h2>
+                    <h2><a href="#">¿Qué es HTML?</a></h2>
                 </header>
                 <footer>
                     <h5><i>Esto fue posteado el 10/07/2018 por UMG-Jalapa</i></h5>
                 </footer>
-                <content>
-                    <p>Durante los ultimos años, el estandar HTML5 se ha estado...</p>
-                    <p>HTML5 es un lenguaje mas semantico. En otras palabras...</p>
-                </content>
+                <p>Durante los últimos años, el estándar HTML5 se ha estado desarrollando...</p>
+                <p>HTML5 es un lenguaje más semántico. En otras palabras...</p>
             </article>
-            <article class="Bottom">
+            <article>
                 <header>
-                    <h2><a href="#">Que es CSS?</a></h2>
+                    <h2><a href="#">¿Qué es CSS?</a></h2>
                 </header>
                 <footer>
                     <h5><i>Esto fue posteado el 10/07/2018 por UMG-Jalapa</i></h5>
                 </footer>
-                <content>
-                    <p>CSS es un lenguaje que se utiliza para dar estilo a un documento HTML...</p>
-                    <p>Con CSS podemos cambiar el color de fondo de una pagina, el color de...</p>
-                </content>
+                <p>CSS es un lenguaje que se utiliza para dar estilo a un documento HTML...</p>
+                <p>Con CSS podemos cambiar el color de fondo de una página, el color de los textos...</p>
             </article>
         </div>
+
+        <aside class="sidebar">
+            <h2>Navegación</h2>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+            <div class="featured">
+                <h2>Artículos Recientes</h2>
+                <p>HTML5 es un lenguaje más semántico. En otras palabras...</p>
+                <a href="#">Leer Más</a>
+            </div>
+        </aside>
     </div>
-    <aside class="top-sidebar">
-        <h2>Navegacion</h2>
-        <ul class="navigation">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </aside>
-    <aside class="bottom-sidebar">
-        <div class="featured">
-            <h2>Articulos Recientes</h2>
-            <p>HTML5 es un lenguaje mas semantico. En otras palabras...</p>
-            <a href="#">Leer Mas</a>
-        </div>
-    </aside>
 
     <footer class="pageFooter">
-        <p>Copyright &copy; 2018 - www.misitio.com </p>
+        <p>Copyright &copy; 2018 - www.misitio.com</p>
     </footer>
 </body>
 </html>
